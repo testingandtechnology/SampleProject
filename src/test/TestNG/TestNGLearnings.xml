@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--Grouping Example-->
+<suite name="Selenium Training Suite">
+    <test name="Selenium TestNG Test">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.esvconnect.qa.testcases.TestNGLearnings"></class>
+        </classes>
+    </test>
+</suite>

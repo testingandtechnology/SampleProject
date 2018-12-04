@@ -2,8 +2,6 @@ package com.esvconnect.qa.testcases;
 import com.esvconnect.qa.base.TestBase;
 import com.esvconnect.qa.pages.LoginPage;
 import com.esvconnect.qa.pages.DashboardPage;
-
-import org.apache.log4j.Priority;
 import utils.Excel.ExcelUtil;
 import org.testng.annotations.*;
 import org.apache.log4j.Logger;

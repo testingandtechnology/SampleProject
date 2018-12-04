@@ -5,11 +5,9 @@ import com.esvconnect.qa.pages.*;
 import utils.Excel.ExcelUtil;
 import com.esvconnect.qa.base.TestUtil;
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.util.ArrayList;
-
 
 public class COCDetailsPageTest extends TestBase{
 
@@ -77,7 +75,6 @@ public class COCDetailsPageTest extends TestBase{
         driver.quit();
         log.info("******************  Browser Closed ****************** ");
     }
-
 
 }
 

@@ -12,7 +12,7 @@
         </classes>
     </test> -->
     <test name="ESVConnect Test Cases using FF">
-        <parameter name="browser" value="Firefox"/>
+        <parameter name="browser" value="Edge"/>
         <classes>
             <class name="com.esvconnect.qa.testcases.COCDetailsPageTest"></class>
         </classes>

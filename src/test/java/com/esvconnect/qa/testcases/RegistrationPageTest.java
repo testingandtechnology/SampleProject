@@ -48,6 +48,7 @@ public class RegistrationPageTest extends TestBase {
         ArrayList tabs = new ArrayList (driver.getWindowHandles());
         driver.switchTo().window(String.valueOf(tabs.get(0)));
         testUtil.switchToFrame1();
+
         log.info("RegistrationPageTest init Done");
     }
 
